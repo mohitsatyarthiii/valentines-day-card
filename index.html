@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentine's Day Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Page 1: Open Me -->
+    <!-- Page 1: Open Me -->
+    <div class="page" id="page1">
+      <div class="envelope-image">
+        <div class="envelope-content">
+          <button class="btn" id="open-btn">Open Me</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page 2: Hello Love -->
+    <div class="page" id="page2">
+      <video id="video-background" autoplay muted loop>
+        <source src="images/love-video.mp4" type="video/mp4" />
+      </video> 
+      <audio id="love-song" autoplay loop>
+        <source src="music/love-me-like-you-do.mp3" type="audio/mp3" />
+      </audio>
+      <div class="hello-love-content">
+        <h1 class="message">Hello Love!</h1>
+        <p>Here's a special song for you.</p>
+        <p>
+          Happy Valentine's Day, my love! 💖 Every day with you feels like a
+          beautiful adventure, and today I want to remind you just how special
+          you are to me. Your kindness, your laughter, and the love you give
+          make my life brighter than I ever imagined. I am so lucky to walk
+          through this journey with you by my side, and I cherish every moment
+          we share. You make me a better person just by being you, and I am
+          grateful for the love and happiness you bring into my world. I can't
+          wait to create even more memories together. Here's to more laughter,
+          more love, and more beautiful moments. I love you more than words
+          could ever express. Forever yours, <br />
+          [Your Name] 💕
+        </p>
+      </div>
+      <button class="btn" id="next-btn1">Next</button>
+    </div>
+
+    <!-- Page 3: Collage -->
+    <div class="page" id="page3">
+      <h1 class="message">Our Memories 💕</h1>
+      <div class="collage">
+        <img src="images/image1.jpg" alt="Image 1" />
+        <img src="images/image2.jpg" alt="Image 2" />
+        <img src="images/image3.jpg" alt="Image 3" />
+        <img src="images/image4.jpg" alt="Image 4" />
+        <img src="images/image5.jpg" alt="Image 5" />
+        <img src="images/image6.jpg" alt="Image 6" />
+        <!-- Add more images as needed -->
+      </div>
+      <button class="btn" id="next-btn2">Next</button>
+    </div>
+
+    <!-- Page 4: Video Background -->
+    <div class="page" id="page4">
+      <video id="video-background" autoplay muted loop>
+        <source src="images/heart.mp4" type="video/mp4" />
+      </video>
+      <h1 class="message">I Love You 💖!</h1>
+      <div class="love-quote">
+        <p>
+          "Love recognizes no barriers. It jumps hurdles, leaps fences,
+          penetrates walls to arrive at its destination full of hope."
+        </p>
+        <p>- Maya Angelou 💕</p>
+      </div>
+      <button class="btn" id="next-btn3">Next</button>
+    </div>
+
+    <!-- Page 5: Will You Be My Valentine? -->
+    <div class="page" id="page5">
+      <video id="video-background" autoplay muted loop>
+        <source src="images/page5.mp4" type="video/mp4" />
+      </video>
+      <h1 class="message">Will You Be My Valentine?</h1>
+      <button class="btn" id="yes-btn">Yes</button>
+      <button class="btn" id="no-btn">No</button>
+    </div>
+
+    <!-- Page 6: Meeting Details -->
+    <div class="page" id="page6">
+      <video id="video-background" autoplay muted loop>
+        <source src="images/page6.mp4" type="video/mp4" />
+      </video>
+      <h1 class="message">Can't Wait to See You 💕!</h1>
+      <p>Let's meet at our favorite spot at 7 PM.</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
