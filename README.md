@@ -18,7 +18,7 @@ Clone the repository:
 
 bash
 Copy
-  git clone https://github.com/mohitsatyarthiii/valentines-day-card.git
+ ## git clone https://github.com/mohitsatyarthiii/valentines-day-card.git.
 
 Navigate into the project directory:
 
